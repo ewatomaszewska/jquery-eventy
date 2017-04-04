@@ -1,0 +1,24 @@
+* {
+	margin: 0 auto;
+}
+#carousel {
+	margin: 0 auto;
+	height: 300px;
+	width: 2000px;
+	border: 2px red;
+}
+ul {
+	padding: 0;
+    display: inline-block;
+    width: 2000px;
+}
+li.image, img{
+	list-style: none;
+	background-position:center; 
+	background-size:cover;
+  	width: 400px;
+	height: 300px;
+}
+li{
+	float:left;
+}
